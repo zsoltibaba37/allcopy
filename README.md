@@ -43,4 +43,5 @@ allcopy.py
 #### Amire szükség lesz
 A [Python3.5](https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe)  és telepítése.
 Ha sikerült a telepítés a Pythont, utánna indíthatjuk a IDLE (Python3.5) programot.
+
 Menü: `File` - `Open` és `Run` (F5)
