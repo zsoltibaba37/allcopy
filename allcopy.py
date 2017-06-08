@@ -5,7 +5,7 @@ import os
 import shutil
 os.chdir('C:\\') #Make sure you add your source and destination path below
 
-dir_src = (r"D:\Dokumentumok\Nekem\onedrive\OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség\Python\\")
+dir_src = (r"D:\Dokumentumok\Nekem\Python\\")
 dir_dst = (r"D:\raspberrypi\Python\\")
 
 print("Másolás innen:")
