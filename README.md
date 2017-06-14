@@ -36,7 +36,7 @@ A következő fájl másolása: wsheet.py
 ```
 
 #### Telepítés
-Nincs szükség telepítésre.
+Az "Amire szükség lesz" menüpontban részletezve.
 #### Fájlok
 allcopy.py
 
