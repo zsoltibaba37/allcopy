@@ -4,7 +4,12 @@
 import os
 import shutil
 #
+# Clear screen
+#
 os.system('clear')
+#
+# Ask the path
+#
 print("################################################################################")
 print()
 dir_src=input(" Copy from [Full path] : ")
