@@ -1,23 +1,28 @@
-#!/usr/local/bin/python3.5
+#!/usr/bin/python3
 # -*- coding: UTF-8 -*-
-
+#
 import os
 import shutil
-os.chdir('C:\\') #Make sure you add your source and destination path below
-
-dir_src = (r"D:\Dokumentumok\Nekem\Python\\")
-dir_dst = (r"D:\raspberrypi\Python\\")
-
-print("Másolás innen:")
-print(dir_src)
-print("Ide:")
-print(dir_dst)
+#
+os.system('clear')
+print("################################################################################")
 print()
+dir_src=input(" Copy from [Full path] : ")
+dir_dst=input(" Copy to   [Full path] : ")
+ext=input(" File extension (e.g.: .BMP) : ")
+print()
+print("################################################################################")
+#
+print()
+print(" Copy from :", dir_src)
+#print(dir_src)
+print(" Copy to :", dir_dst)
+#print(dir_dst)
+print()
+print("################################################################################")
+array = os.listdir(dir_src)
 
-lista = os.listdir(dir_src)
-kiterjesztes=".py"
-
-for filename in lista:
-    if filename.endswith(kiterjesztes):
+for filename in array:
+    if filename.endswith(ext):
         shutil.copy( dir_src + filename, dir_dst)
-        print("A következő fájl másolása:", filename)
+#        print("A következő fájl másolása:", filename)
