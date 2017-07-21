@@ -16,7 +16,7 @@ print("#########################################################################
 print()
 print(" Copy from :", dir_src)
 #print(dir_src)
-print(" Copy to :", dir_dst)
+print(" Copy to   :", dir_dst)
 #print(dir_dst)
 print()
 print("################################################################################")
