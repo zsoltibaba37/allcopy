@@ -1,38 +1,26 @@
 # allcopy
 
-Ez a kis program az egyik könyvtárból egy másikba másolja a python fájlokat.
+Ez a kis program az egyik könyvtárból egy másikba másol fájlokat.
+
+
+
 Kifejezetten Windows alá készült, mert ott a parancssor használhatatlan.
 
 ### allcopy
 *Az allcopy működés közben:*
 ```sh
-Másolás innen:
-D:\Dokumentumok\Nekem\Python\\
-Ide:
-D:\raspberrypi\Python\\
+################################################################################
 
-A következő fájl másolása: allcopy.py
-A következő fájl másolása: convert.py
-A következő fájl másolása: exit.py
-A következő fájl másolása: input_proba.py
-A következő fájl másolása: input_proba_2.py
-A következő fájl másolása: insert_node.py
-A következő fájl másolása: learn_leason.py
-A következő fájl másolása: matek_1.py
-A következő fájl másolása: matek_2.py
-A következő fájl másolása: math_minus.py
-A következő fájl másolása: math_plus.py
-A következő fájl másolása: read_file.py
-A következő fájl másolása: replace_v02.py
-A következő fájl másolása: rounded_rectangle.py
-A következő fájl másolása: string.py
-A következő fájl másolása: suly.py
-A következő fájl másolása: suly_v02.py
-A következő fájl másolása: suly_v03.py
-A következő fájl másolása: tkinter.py
-A következő fájl másolása: words.py
-A következő fájl másolása: wrod.py
-A következő fájl másolása: wsheet.py
+ Copy from [Full path] : /home/user/temp/bmp/
+ Copy to   [Full path] : /home/user/temp/backup/
+ File extension (e.g.: .BMP) : .BMP
+
+################################################################################
+
+ Copy from : /home/user/temp/bmp/
+ Copy to   : /home/user/temp/backup/
+
+################################################################################
 ```
 
 #### Telepítés
