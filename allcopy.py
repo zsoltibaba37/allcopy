@@ -30,4 +30,4 @@ array = os.listdir(dir_src)
 for filename in array:
     if filename.endswith(ext):
         shutil.copy( dir_src + filename, dir_dst)
-#        print("A következő fájl másolása:", filename)
+#        print("Copy the following file:", filename)
